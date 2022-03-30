@@ -1,23 +1,5 @@
 [
  {
-    "id": "zhongziso19",
-    "name": "种子搜",
-    "url": "https://m.zhongziso19.xyz",
-    "icon": "https://m.zhongziso19.xyz/favicon.ico",
-    "paths": {
-      "preset": "/list/{k}/{p}",
-      "size": "/list_length/{k}/{p}",
-      "time": "/info-e{p}e4ffbace4d819aad9d9f29a844922cce812"
-    },
-    "xpath": {
-      "group": "//ul[@class='list-group']",
-      "magnet": "./li[1]/a[1]/@href",
-      "name": "./li[1]/a[1]",
-      "size": "./li[2]/dl[1]/dd[2]",
-      "date": "./li[2]/dl[1]/dd[3]"
-    }
-  },
- {
   "id": "htmcdn",
   "name": "百度搜索结果",
   "url": "https://doc.htmcdn.com:39988",
