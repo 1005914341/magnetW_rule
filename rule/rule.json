@@ -1,5 +1,25 @@
 [
   {
+  "id": "btlm",
+  "name": " BT联盟",
+  "url": "https://cdn.btlm.top:65533",
+  "icon": "https://cdn.btlm.top:65533/favicon.ico",
+  "paths": {
+    "preset": "/s?word={k}",
+    "size": "javascript:void({p})",
+    "hot": "javascript:void({p})",
+    "time": "javascript:void({p})"
+  },
+  "xpath": {
+    "group": "//ul[@id='23a8d0cdbac047f1858b933fd43b6872dbcec964']",
+    "magnet": "./li[1]/h2[1]/a[1]/@href",
+    "name": "./li[1]/h2[1]/a[1]",
+    "size": "./li[5]/span[2]",
+    "date": "./li[2]/span[3]",
+    "hot": "./li[2]/span[4]"
+  }
+},
+  {
     "id": "zhongzisou",
     "name": "种子搜",
     "url": "https://m.zhongziso19.xyz",
