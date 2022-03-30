@@ -1,5 +1,24 @@
 [
   {
+  "id": "clga7",
+  "name": " 磁力狗 ",
+  "url": "https://clga7.xyz",
+  "icon": "https://clga7.xyz/favicon.ico",
+  "paths": {
+    "preset": "/search-{k}-{p}-0-1.html",
+    "size": "/search-{k}-{p}-1-1.html",
+    "time": "/search-{k}-{p}-2-1.html"
+  },
+  "xpath": {
+    "group": "//dl[@class='detail']",
+    "magnet": "./dd[1]/span[6]/a[1]/@href",
+    "name": "./dt[1]/a[1]",
+    "size": "./ul[1]/li[5]/span[1]",
+    "date": "./dd[1]/span[4]/b[1]",
+    "hot": "./dd[1]/span[5]/b[1]"
+  }
+},
+  {
     "id": "zhongziso19",
     "name": "种子搜",
     "url": "https://m.zhongziso19.xyz",
