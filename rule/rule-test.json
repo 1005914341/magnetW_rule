@@ -1,21 +1,39 @@
 [
  {
-  "site": " BT联盟",
-  "waiting": "0",
-  "group": "//ul[@id='23a8d0cdbac047f1858b933fd43b6872dbcec964']",
-  "magnet": "./li[1]/h2[1]/a[1]/@href",
-  "name": "./li[1]/h2[1]/a[1]",
-  "size": "./li[5]/span[2]",
-  "count": "./li[2]/span[3]",
-  "source": "https://cdn.btlm.top:65533/s?word=XXX"
-},
+    "id": "zhongziso19",
+    "name": "种子搜",
+    "url": "https://m.zhongziso19.xyz",
+    "icon": "https://m.zhongziso19.xyz/favicon.ico",
+    "paths": {
+      "preset": "/list/{k}/{p}",
+      "size": "/list_length/{k}/{p}",
+      "time": "/info-e{p}e4ffbace4d819aad9d9f29a844922cce812"
+    },
+    "xpath": {
+      "group": "//ul[@class='list-group']",
+      "magnet": "./li[1]/a[1]/@href",
+      "name": "./li[1]/a[1]",
+      "size": "./li[2]/dl[1]/dd[2]",
+      "date": "./li[2]/dl[1]/dd[3]"
+    }
+  },
+ {
+  "id": "htmcdn",
+  "name": "百度搜索结果",
+  "url": "https://doc.htmcdn.com:39988",
+  "icon": "https://doc.htmcdn.com:39988/favicon.ico",
+  "paths": {
+    "preset": "/search-{k}-rel-{p}.html?",
+    "size": "javascript:void({p})",
+    "time": "javascript:void({p})"
+  },
   "xpath": {
-    "group": "//ul[@id='23a8d0cdbac047f1858b933fd43b6872dbcec964']",
-    "magnet": "./li[1]/h2[1]/a[1]/@href",
-    "name": "./li[1]/h2[1]/a[1]",
-    "size": "./li[5]/span[2]",
-    "date": "./li[2]/span[3]",
-    "hot": "./li[2]/span[4]"
+    "group": "//div[@class='ssbox']",
+    "magnet": "./div[2]/span[1]/a[1]/@href",
+    "name": "./div[1]/h3[1]/a[1]",
+    "size": "./div[2]/span[3]/b[1]",
+    "date": "./div[2]/span[2]/b[1]",
+    "hot": "./div[2]/span[5]/b[1]"
   }
 },
   {
@@ -37,22 +55,43 @@
     "hot": "./dd[1]/span[5]/b[1]"
   }
 },
+ {
+  "id": "cltt604",
+  "name": " 磁力天堂 ",
+  "url": "https://cltt604.xyz",
+  "icon": "https://cltt604.xyz/favicon.ico",
+  "paths": {
+    "preset": "/search-{k}-{p}-0-1.html",
+    "size": "/search-{k}-{p}-1-1.html",
+    "time": "/search-{k}-{p}-2-1.html"
+  },
+  "xpath": {
+    "group": "//dl[@class='item']",
+    "magnet": "./dd[1]/span[6]/a[1]/@href",
+    "name": "./dt[1]/a[1]",
+    "size": "./ul[1]/li[5]/span[1]",
+    "date": "./dd[1]/span[4]/b[1]",
+    "hot": "./dd[1]/span[5]/b[1]"
+  },
   {
-    "id": "zhongziso19",
-    "name": "种子搜",
-    "url": "https://m.zhongziso19.xyz",
-    "icon": "https://m.zhongziso19.xyz/favicon.ico",
-    "paths": {
-      "preset": "/list/{k}/{p}",
-      "size": "/list_length/{k}/{p}",
-      "time": "/info-e{p}e4ffbace4d819aad9d9f29a844922cce812"
-    },
-    "xpath": {
-      "group": "//ul[@class='list-group']",
-      "magnet": "./li[1]/a[1]/@href",
-      "name": "./li[1]/a[1]",
-      "size": "./li[2]/dl[1]/dd[2]",
-      "date": "./li[2]/dl[1]/dd[3]"
-    }
+  "id": "m32g18jr",
+  "name": " 磁力树 ",
+  "url": "https://m32g18jr.xyz",
+  "icon": "https://m32g18jr.xyz/favicon.ico",
+  "paths": {
+    "preset": "/search-{k}-{p}-0-1.html",
+    "size": "/search-{k}-{p}-1-1.html",
+    "time": "/search-{k}-{p}-2-1.html"
+  },
+  "xpath": {
+    "group": "//dl[@class='detail']",
+    "magnet": "./dd[1]/span[6]/a[1]/@href",
+    "name": "./dt[1]/a[1]",
+    "size": "./ul[1]/li[4]/span[1]",
+    "date": "./dd[1]/span[4]/b[1]",
+    "hot": "./dd[1]/span[5]/b[1]"
   }
+}
+}，
+  
 ]
