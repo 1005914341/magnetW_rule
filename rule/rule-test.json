@@ -5,7 +5,7 @@
   "url": "https://www.torrentkitty.tv",
   "icon": "https://www.torrentkitty.tv/favicon.ico",
   "paths": {
-    "preset": "/{k}/钢铁侠/"
+    "preset": "/search/{k}/{p}"
   },
   "xpath": {
     "group": "//div[@class='wrapper']",
