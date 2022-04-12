@@ -16,5 +16,24 @@
       "size": "./li[2]/dl[1]/dd[2]",
       "date": "./li[2]/dl[1]/dd[3]"
     }
+  },
+  {
+  "id": "htmcdn",
+  "name": "百度搜索结果",
+  "url": "https://doc.htmcdn.com:39988",
+  "icon": "https://doc.htmcdn.com:39988/favicon.ico",
+  "paths": {
+    "preset": "/search-{k}-rel-{p}.html?",
+    "size": "javascript:void({p})",
+    "time": "javascript:void({p})"
+  },
+  "xpath": {
+    "group": "//div[@class='ssbox']",
+    "magnet": "./div[2]/span[1]/a[1]/@href",
+    "name": "./div[1]/h3[1]/a[1]",
+    "size": "./div[2]/span[3]/b[1]",
+    "date": "./div[2]/span[2]/b[1]",
+    "hot": "./div[2]/span[5]/b[1]"
   }
+}
 ]
