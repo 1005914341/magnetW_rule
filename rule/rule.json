@@ -17,23 +17,23 @@
       "date": "./li[2]/dl[1]/dd[3]"
     }
   },
-  {
-  "id": "htmcdn",
-  "name": "百度搜索结果",
-  "url": "https://doc.htmcdn.com:39988",
-  "icon": "https://doc.htmcdn.com:39988/favicon.ico",
+   {
+  "id": "clga7",
+  "name": " 磁力狗 ",
+  "url": "https://clga7.xyz",
+  "icon": "https://clga7.xyz/favicon.ico",
   "paths": {
-    "preset": "/search-{k}-rel-{p}.html?",
-    "size": "javascript:void({p})",
-    "time": "javascript:void({p})"
+    "preset": "/search-{k}-{p}-0-1.html",
+    "size": "/search-{k}-{p}-1-1.html",
+    "time": "/search-{k}-{p}-2-1.html"
   },
   "xpath": {
-    "group": "//div[@class='ssbox']",
-    "magnet": "./div[2]/span[1]/a[1]/@href",
-    "name": "./div[1]/h3[1]/a[1]",
-    "size": "./div[2]/span[3]/b[1]",
-    "date": "./div[2]/span[2]/b[1]",
-    "hot": "./div[2]/span[5]/b[1]"
+    "group": "//dl[@class='detail']",
+    "magnet": "./dd[1]/span[6]/a[1]/@href",
+    "name": "./dt[1]/a[1]",
+    "size": "./ul[1]/li[5]/span[1]",
+    "date": "./dd[1]/span[4]/b[1]",
+    "hot": "./dd[1]/span[5]/b[1]"
   }
 }
 ]
