@@ -1,11 +1,11 @@
 [
- {
+{
   "id": "torrentkitty",
   "name": " Torrent Kitty",
   "url": "https://www.torrentkitty.tv",
   "icon": "https://www.torrentkitty.tv/favicon.ico",
   "paths": {
-    "preset": "/{k}/{p}/"
+    "preset": "/{k}/钢铁侠/"
   },
   "xpath": {
     "group": "//div[@class='wrapper']",
@@ -13,7 +13,7 @@
     "name": "./table[1]/tbody[1]/tr[3]/td[4]/a[2]",
     "size": "./table[1]/tbody[1]/tr[21]/td[2]",
     "date": "./table[1]/tbody[1]/tr[21]/td[3]",
-    "hot": "./div[4]/a[10]"
+    "hot": "./div[4]/a[5]"
   }
 }
 ]
