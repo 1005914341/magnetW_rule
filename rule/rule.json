@@ -17,11 +17,30 @@
       "date": "./li[2]/dl[1]/dd[3]"
     }
   },
-   {
-  "id": "clga7",
-  "name": " 磁力狗 ",
-  "url": "https://clga7.xyz",
-  "icon": "https://clga7.xyz/favicon.ico",
+  {
+  "id": "cltt604",
+  "name": " 磁力天堂 ",
+  "url": "https://cltt604.xyz",
+  "icon": "https://cltt604.xyz/favicon.ico",
+  "paths": {
+    "preset": "/search-{k}-{p}-0-1.html",
+    "size": "/search-{k}-{p}-1-1.html",
+    "time": "/search-{k}-{p}-2-1.html"
+  },
+  "xpath": {
+    "group": "//dl[@class='item']",
+    "magnet": "./dd[1]/span[6]/a[1]/@href",
+    "name": "./dt[1]/a[1]",
+    "size": "./ul[1]/li[5]/span[1]",
+    "date": "./dd[1]/span[4]/b[1]",
+    "hot": "./dd[1]/span[5]/b[1]"
+  }
+ },
+  {
+  "id": "m32g18jr",
+  "name": " 磁力树 ",
+  "url": "https://m32g18jr.xyz",
+  "icon": "https://m32g18jr.xyz/favicon.ico",
   "paths": {
     "preset": "/search-{k}-{p}-0-1.html",
     "size": "/search-{k}-{p}-1-1.html",
@@ -31,7 +50,7 @@
     "group": "//dl[@class='detail']",
     "magnet": "./dd[1]/span[6]/a[1]/@href",
     "name": "./dt[1]/a[1]",
-    "size": "./ul[1]/li[5]/span[1]",
+    "size": "./ul[1]/li[4]/span[1]",
     "date": "./dd[1]/span[4]/b[1]",
     "hot": "./dd[1]/span[5]/b[1]"
   }
