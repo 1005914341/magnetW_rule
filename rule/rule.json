@@ -74,20 +74,19 @@
     "hot": "./dd[1]/span[5]/b[1]"
   }
 },
- {
+{
   "id": "nyaa",
-  "name": "123 :: Sukebei",
+  "name": "Sukebei",
   "url": "https://sukebei.nyaa.si",
   "icon": "https://sukebei.nyaa.si/favicon.ico",
   "paths": {
-    "preset": "/?f={p}&c=0_0&q={k}&p=2",
-    "hot": "/view/{p}"
+    "preset": "/?f={p}&c=0_0&q={k}"
   },
   "xpath": {
     "group": "//table[@class='table table-bordered table-hover table-striped torrent-list']/tbody",
     "magnet": "./tr[75]/td[3]/a[2]/@href",
-    "name": "./tr[1]/td[3]/a[2]",
-    "size": "./tr[13]/td[2]/a[1]",
+    "name": "./tr[2]/td[2]/a[1]",
+    "size": "./tr[72]/td[2]/a[1]",
     "date": "./tr[75]/td[5]",
     "hot": "./tr[75]/td[8]"
   }
