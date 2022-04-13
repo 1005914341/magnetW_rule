@@ -74,13 +74,13 @@
     "hot": "./dd[1]/span[5]/b[1]"
   }
 },
-  {
+ {
   "id": "nyaa",
-  "name": "Sukebei",
+  "name": "123 :: Sukebei",
   "url": "https://sukebei.nyaa.si",
   "icon": "https://sukebei.nyaa.si/favicon.ico",
   "paths": {
-    "preset": "/?f=0&c=0_0&q={k}&p={p}",
+    "preset": "/?f={p}&c=0_0&q={k}&p=2",
     "hot": "/view/{p}"
   },
   "xpath": {
