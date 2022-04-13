@@ -73,43 +73,5 @@
     "date": "./dd[1]/span[4]/b[1]",
     "hot": "./dd[1]/span[5]/b[1]"
   }
-},
-{
-  "id": "1024bt9",
-  "name": " 搜索结果 ",
-  "url": "https://1024bt9.xyz",
-  "icon": "https://1024bt9.xyz/favicon.ico",
-  "paths": {
-    "preset": "/main-search-kw-{k}-{p}.html",
-    "size": "/main-search-kw-{k}-length-{p}.html",
-    "time": "/main-search-kw-{k}-time-{p}.html"
-  },
-  "xpath": {
-    "group": "//div[@class='search-item detail-width']",
-    "magnet": "./div[3]/span[5]/a[1]/@href",
-    "name": "./div[1]/h3[1]/a[1]",
-    "size": "./div[2]/ul[1]/li[5]/span[1]",
-    "date": "./div[3]/span[2]/b[1]",
-    "hot": "./div[3]/span[4]/b[1]"
-  }
-},
-  {
-  "id": "htmcdn",
-  "name": "磁力多",
-  "url": "https://doc.htmcdn.com:39988",
-  "icon": "https://doc.htmcdn.com:39988/favicon.ico",
-  "paths": {
-    "preset": "/search-{k}-rel-{p}.html?",
-    "size": "javascript:void({p})",
-    "time": "javascript:void({p})"
-  },
-  "xpath": {
-    "group": "//div[@class='ssbox']",
-    "magnet": "./div[2]/span[1]/a[1]/@href",
-    "name": "./div[1]/h3[1]/a[1]",
-    "size": "./div[2]/span[3]/b[1]",
-    "date": "./div[2]/span[2]/b[1]",
-    "hot": "./div[2]/span[5]/b[1]"
-  }
 }
 ]
