@@ -75,20 +75,21 @@
   }
 },
   {
-  "id": "torrentkitty",
-  "name": " Torrent Kitty",
-  "url": "https://www.torrentkitty.tv",
-  "icon": "https://www.torrentkitty.tv/favicon.ico",
+  "id": "nyaa",
+  "name": "Sukebei",
+  "url": "https://sukebei.nyaa.si",
+  "icon": "https://sukebei.nyaa.si/favicon.ico",
   "paths": {
-    "preset": "/search/{k}/{p}"
+    "preset": "/?f=0&c=0_0&q={k}&p={p}",
+    "hot": "/view/{p}"
   },
   "xpath": {
-    "group": "//div[@class='wrapper']",
-    "magnet": "./table[1]/tbody[1]/tr[21]/td[4]/a[2]/@href",
-    "name": "./table[1]/tbody[1]/tr[3]/td[4]/a[2]",
-    "size": "./table[1]/tbody[1]/tr[21]/td[2]",
-    "date": "./table[1]/tbody[1]/tr[21]/td[3]",
-    "hot": "./div[4]/a[5]"
+    "group": "//table[@class='table table-bordered table-hover table-striped torrent-list']/tbody",
+    "magnet": "./tr[75]/td[3]/a[2]/@href",
+    "name": "./tr[1]/td[3]/a[2]",
+    "size": "./tr[13]/td[2]/a[1]",
+    "date": "./tr[75]/td[5]",
+    "hot": "./tr[75]/td[8]"
   }
 }
 ]
