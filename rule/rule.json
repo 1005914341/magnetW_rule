@@ -73,5 +73,22 @@
     "date": "./dd[1]/span[4]/b[1]",
     "hot": "./dd[1]/span[5]/b[1]"
   }
+},
+  {
+  "id": "cili",
+  "name": " 100个相关资源 ",
+  "url": "https://cili.se",
+  "icon": "https://cili.se/favicon.ico",
+  "paths": {
+    "preset": "/search?q={k}"
+  },
+  "xpath": {
+    "group": "//table[@class='table table-hover file-list']/tbody",
+    "magnet": "./tr[3]/td[1]/a[1]/@href",
+    "name": "./tr[3]/td[1]/a[1]",
+    "size": "./tr[100]/td[2]",
+    "date": "./tr[77]/td[1]/a[1]/p[1]",
+    "hot": "./tr[71]/td[1]/a[1]/p[1]/b[1]"
+  }
 }
 ]
